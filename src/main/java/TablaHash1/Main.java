@@ -16,19 +16,20 @@ public class Main {
             Nombre = "Bob_" + j;
             Edad = (int) (10 + (Math.random() * 50));
 
-            Persona ob = new Persona(Codigo, Nombre, Edad);
+            Persona persona = new Persona(Codigo, Nombre, Edad);
+            Elemento elemento = new Elemento(persona);
             
-            t.insertar(ob);
+            t.insertar(persona);
         }
 
         System.out.println("");
 
         t.Listar();
-        
-        Persona ob ;
-        ob=t.buscar("FX-105Y");
 
-        ob.datos();
+       /* Elemento elemento = t.buscar("FX-105Y");
+        Persona persona = elemento.getPersona();
+
+        persona.datos();*/
     }
 
 }

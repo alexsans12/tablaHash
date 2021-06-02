@@ -1,5 +1,7 @@
 TablaHash1/TablaHash.java
  TablaHash1.TablaHash
+TablaHash1/Elemento.java
+ TablaHash1.Elemento
 TablaHash1/Persona.java
  TablaHash1.Persona
 TablaHash1/Main.java
