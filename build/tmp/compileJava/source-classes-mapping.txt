@@ -1,0 +1,6 @@
+TablaHash1/TablaHash.java
+ TablaHash1.TablaHash
+TablaHash1/Persona.java
+ TablaHash1.Persona
+TablaHash1/Main.java
+ TablaHash1.Main
